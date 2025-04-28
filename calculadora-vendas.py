@@ -8,7 +8,7 @@ n4 = n1 + (n1*7.01/100)
 if (p == 0):
     print("Valor final da venda: R${} (com o desconto de 3%) \nPagamento via pix. O valor sem o desconto é de R$ {}".format(n,n1))
 elif (p==1):
-    print("Valor final da venda: R${} (com juros de 4,20%),  \nTotal de {} parcela(s).format(n2,p)")
+    print("Valor final da venda: R${} (com juros de 4,20%),  \nTotal de {} parcela(s)".format(n2,p))
 elif (p==2):
     print("Valor final da venda: R${} (com juros de 6,09%) \nTotal de {} parcela(s), sendo {}x de R${:.2f}.".format(n3,p,p,n3/2))
 elif (p==3):
