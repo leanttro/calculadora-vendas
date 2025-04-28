@@ -24,7 +24,6 @@ while True:
     else:
         print("Opção inválida! Digite apenas 0, 1, 2 ou 3.")
 
-    # Pergunta se o usuário quer voltar e fazer outro cálculo
     voltar = input("\nDeseja calcular novamente? (S/N): ").strip().upper()
     if voltar != "S":
         print("Encerrando. Obrigado!")
