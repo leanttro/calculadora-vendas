@@ -1,12 +1,12 @@
-n = float(input("Digite o valor do produto: R$"))
-p = int(input("Qual a quantidade de parcelas(até 3x): "))
+n = float(input("Valor do produto: R$"))
+p = int(input("Escolha uma condição de pagamento abaixo: \nPix: 0\nCrédito (Qt.parcelas): 1,2,3 \n "))
 n1 = n + (n*3/100)
 n2 = n1 + (n1*4.20/100)
 n3 = n1 + (n1*6.09/100)
 n4 = n1 + (n1*7.01/100)
 
 if (p == 0):
-    print("Valor final da venda: R${}. \nCom o desconto de 3% para pagamento à vista, o valor fica R$ {}".format(n1,n))
+    print("Valor final da venda: R${} (com o desconto de 3%) \nPagamento via pix. O valor sem o desconto é de R$ {}".format(n,n1))
 elif (p==1):
     print("Valor final da venda: R${} (com juros de 4,20%),  \nTotal de {} parcela(s).format(n2,p)")
 elif (p==2):
